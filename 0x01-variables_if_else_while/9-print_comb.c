@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point
+ *
  * Return: Always 0 (Success/accurate)
  */
-int main (void)
+int main(void)
 
 {
 int number;
@@ -25,6 +25,6 @@ putchar (' ');
 
 putchar('\n');
 
-return (0)
+return (0);
 
 }
