@@ -2,19 +2,19 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (Success/Correct)
  */
 int main(void)
 
 {
 int i;
 
-for (i = 0 ; i < 10; i++)
+for (i = 48 ; i <= 57; i++)
 {
-printf("%i", i);
+putchar (i);
 }
 
-printf("\n");
+putchar ('\n');
 
 return (0);
 
