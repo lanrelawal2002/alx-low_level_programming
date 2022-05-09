@@ -1,19 +1,24 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <limits.h>
+
 /**
- *malloc_checked - array for prints a string
- *@b: number of memory
- *Return: void
+ * malloc_checked - returns a pointer to a checked memory alloc
+ * @b: the amount of memory to alloc
+ *
+ * Return: pointer to that alloc
  */
 
 void *malloc_checked(unsigned int b)
 {
-void *p;
+	unsigned int *ptr;
 
-p = malloc(b);
-if (p == NULL)
-{
-exit(98);
-}
+	ptr = malloc(b);
+	if (ptr == NULL)
+	{
+		exit(98);
+	}
 
-return (p);
+	return (ptr);
 }
